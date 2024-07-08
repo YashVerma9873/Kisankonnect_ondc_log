@@ -57,11 +57,6 @@
                             }
                         },
                         "type": "Delivery",
-                        "state": {
-                            "descriptor": {
-                                "code": "Completed"
-                            }
-                        },
                         "start": {
                             "location": {
                                 "id": "kk-1",
@@ -141,7 +136,7 @@
                         "parent_item_id": "940",
                         "return_status": "",
                         "cancellation_status": "",
-                        "fulfillment_status": "Accepted",
+                        "fulfillment_status": "Completed",
                         "product": {
                             "id": "2205",
                             "subtotal": 229,
@@ -296,7 +291,7 @@
                     "created_at": "2024-06-12T12:55:25.883Z",
                     "updated_at": "2024-06-12T12:55:25.883Z"
                 },
-                "state": "Completed",
+                "state": "Accepted",
                 "id": "2024-07-04-322544",
                 "documents": [
                     {
