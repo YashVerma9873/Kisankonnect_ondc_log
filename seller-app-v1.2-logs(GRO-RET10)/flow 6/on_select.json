@@ -1,4 +1,3 @@
-[
     {
         "context": {
             "domain": "ONDC:RET10",
@@ -9,14 +8,14 @@
             "bap_id": "buyer-app-preprod-v2.ondc.org",
             "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
             "bpp_uri": "https://uatapi.kisankonnect.in/spp",
-            "transaction_id": "90b75fcd-39bc-4119-8cbd-3b43aa2983dd",
-            "message_id": "99b329f6-8a21-438b-9b86-0176e4ce1bcb",
-            "timestamp": "2024-07-01T10:32:26.940Z",
+            "transaction_id": "ce8602d7-625a-44d1-b3e6-6c7b4e9c2cca",
+            "message_id": "5b6f4f33-3d9d-4f96-9d1e-b52d2d2e4d97",
+            "timestamp": "2024-07-17T12:37:52.186Z",
             "bpp_id": "uatapi.kisankonnect.in",
             "ttl": "PT30S"
         },
         "message": {
-            "quote": {
+            "order": {
                 "provider": {
                     "id": "kk-1",
                     "locations": [
@@ -60,7 +59,7 @@
                             "item": {
                                 "quantity": {
                                     "available": {
-                                        "count": "0.0"
+                                        "count": "10"
                                     },
                                     "maximum": {
                                         "count": "10.0"
@@ -136,7 +135,5 @@
                     "@ondc/org/withholding_amount": "10.0"
                 }
             }
-        },
-        "error": null
+        }
     }
-]

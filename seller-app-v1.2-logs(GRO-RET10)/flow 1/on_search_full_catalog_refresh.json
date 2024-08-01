@@ -1,18 +1,18 @@
 {
     "context": {
         "domain": "ONDC:RET10",
+        "action": "on_search",
         "country": "IND",
         "city": "std:022",
-        "action": "on_search",
         "core_version": "1.2.0",
-        "bap_id": "ref-app-buyer-staging-v2.ondc.org",
-        "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
-        "bpp_uri": "https://uatapi.kisankonnect.in/spp",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "transaction_id": "7b7e6ee1-f2f6-4d7f-9ba9-00260907a18c",
         "message_id": "6930b302-5c19-42d2-abc8-3f39f9e95de0",
-        "timestamp": "2024-06-10T20:05:47.608Z",
+        "timestamp": "2024-07-15T18:57:03.850Z",
+        "ttl": "PT30S",
         "bpp_id": "uatapi.kisankonnect.in",
-        "ttl": "PT30S"
+        "bpp_uri": "https://uatapi.kisankonnect.in/spp"
     },
     "message": {
         "catalog": {
@@ -56,396 +56,17 @@
                             "https://etimg.etb2bimg.com/thumb/msid-102225929,width-1200,height-900,resizemode-4/.jpg"
                         ]
                     },
-                    "categories": [
-                        {
-                            "id": "1",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Fruits"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "2"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Vegetables"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "1"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "4",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Exotic Vegetables"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "3"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "6",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Moms Kitchen"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "5"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "10",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "AamMahotsav"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "3"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "11",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Cold Pressed Oils"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "11"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "13",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Premium Fruits"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "7"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Village Staples"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "4"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "17",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Flowers"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "10"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Hydroponic Vegetables"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "6"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Fresh Atta"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "15"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Masala Blends and Premixes"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "24"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Dry Fruits"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "15"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "parent_category_id": "",
-                            "descriptor": {
-                                "name": "Pre Booking"
-                            },
-                            "tags": [
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "custom_menu"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "display",
-                                    "list": [
-                                        {
-                                            "code": "rank",
-                                            "value": "15"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
+                    "categories": [],
                     "locations": [
                         {
                             "id": "kk-1",
                             "gps": "19.033049,73.029663",
                             "address": {
-                                "city": "std:080",
+                                "city": "std:022",
                                 "state": "KA",
                                 "country": "India",
                                 "locality": "Navi Mumbai",
-                                "name": "kk testing",
+                                "name": "kisankonnect",
                                 "area_code": "400705",
                                 "street": ""
                             },
@@ -458,26 +79,21 @@
                             },
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z",
                                 "days": "1,2,3,4,5,6,7",
                                 "schedule": {
-                                    "holidays": [],
-                                    "frequency": "PT4H",
-                                    "times": [
-                                        "0900",
-                                        "2200"
-                                    ]
+                                    "holidays": []
                                 },
                                 "range": {
                                     "start": "0900",
                                     "end": "2200"
-                                }
+                                },
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             }
                         }
                     ],
                     "time": {
                         "label": "enable",
-                        "timestamp": "2024-06-10T20:05:47.608Z"
+                        "timestamp": "2024-07-15T18:57:03.850Z"
                     },
                     "fulfillments": [
                         {
@@ -494,8 +110,9 @@
                             "id": "123",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "13",
                             "descriptor": {
                                 "name": "Avocado Imported(Premium)(approx.220g to 280g)",
                                 "short_desc": "Short Description - Avocados have hard green/black outer peel. It has soft, buttery textured flesh inside. It has nice && nutty flavour with pleasing aroma. Avocados are rich source of Vitamin C,K,E,B5,B6, Potassium, Folate and Dietary Fiber. In Avocados are great to top with sandwiches, burgers and pizzas. They can also be added in salads too.",
@@ -503,7 +120,8 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/avocadoimp.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/avocadoimp.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
@@ -519,7 +137,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Premium Fruits",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -531,16 +149,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -572,22 +190,24 @@
                             "id": "143",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "1",
                             "descriptor": {
                                 "name": "Banana Elaichi",
                                 "short_desc": "Short Description - Banana Elichi or Yelakki are small sized bananas. They are just like regular bananas in taste but are more sweeter. These can be used in making custards, smoothes, milkshakes and other desserts. These bananas are loaded with fibre, essential vitamins and minerals such as potassium, calcium, Vitamin C and B6.",
                                 "long_desc": "Long Description - Banana Elichi or Yelakki are small sized bananas. They are just like regular bananas in taste but are more sweeter. These can be used in making custards, smoothes, milkshakes and other desserts. These bananas are loaded with fibre, essential vitamins and minerals such as potassium, calcium, Vitamin C and B6.",
                                 "images": [
-                                    "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/bananaelichi.png",
-                                    "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/bananaelichi.png"
-                                ]
+                                    "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20240627115038WhatsApp Image 2024-06-24 at 5.46.08 PM.jpeg",
+                                    "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20240627115039WhatsApp Image 2024-06-24 at 5.46.08 PM.jpeg"
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "500 "
+                                        "value": "500"
                                     }
                                 },
                                 "available": {
@@ -597,7 +217,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Fruits",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -609,16 +229,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -631,7 +251,7 @@
                                         },
                                         {
                                             "code": "url",
-                                            "value": "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/bananaelichi.png"
+                                            "value": "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20240627115038WhatsApp Image 2024-06-24 at 5.46.08 PM.jpeg"
                                         }
                                     ]
                                 },
@@ -650,8 +270,9 @@
                             "id": "98",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "4",
                             "descriptor": {
                                 "name": "Mushroom(Approx.200gm)",
                                 "short_desc": "Short Description - Mushrooms boost our immune system. It can be sliced and added to soups, pizzas and pastas. They can be added in stews, rice, noodles and can be stir-fried with veggies and meat. They are very low in calories and rich in fiber.",
@@ -659,13 +280,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220401164639Untitled design (44).png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220401164639Untitled design (44).png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "unit",
-                                        "value": "1 "
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -675,7 +297,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Exotic Vegetables",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -687,16 +309,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -728,8 +350,9 @@
                             "id": "471",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "11",
                             "descriptor": {
                                 "name": "Cold-pressed Groundnut Oil",
                                 "short_desc": "Short Description - Groundnut oil obtained by traditional cold pressing procedures is exceptionally nutritious and healthy, retaining all of the health advantages. Because it is high in antioxidants, it aids in the reduction of heart disease and hence protects against cancer. Groundnut oil that has been cold pressed is high in MUFA. There are no trans fats in it.",
@@ -737,7 +360,8 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/Groundnut.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/Groundnut.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
@@ -753,7 +377,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Cold Pressed Oils",
+                            "category_id": "Oil & Ghee",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -765,16 +389,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -806,8 +430,9 @@
                             "id": "796",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "14",
                             "descriptor": {
                                 "name": "Tur/Toor Dal(Gavran)",
                                 "short_desc": "Short Description - ",
@@ -815,13 +440,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220324124411tur daal300.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220324124411tur daal300.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
-                                        "unit": "gram",
-                                        "value": "1 k"
+                                        "unit": "kilogram",
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -831,7 +457,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Village Staples",
+                            "category_id": "Rice and Rice Products",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -843,16 +469,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -884,8 +510,9 @@
                             "id": "876",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "6",
                             "descriptor": {
                                 "name": "Sweet Cravings Combo",
                                 "short_desc": "Short Description - Dry Fruit Ladoo 100gm,Suji Ladoo 100gm,Groundnut Chikki 100gm,Shakarpare 100gm, Caramel Makhana\t30gm",
@@ -893,13 +520,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/Sweetcarvings1.jpg",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/Sweetcarvings1.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "unit",
-                                        "value": "1 "
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -909,7 +537,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Moms Kitchen",
+                            "category_id": "Snacks, Dry Fruits, Nuts",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -921,16 +549,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -962,8 +590,9 @@
                             "id": "1211",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "17",
                             "descriptor": {
                                 "name": "Mix Flowers",
                                 "short_desc": "Short Description - ",
@@ -971,13 +600,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220412115554Untitled design - 2022-04-12T115525.088.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220412115554Untitled design - 2022-04-12T115525.088.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "250 "
+                                        "value": "250"
                                     }
                                 },
                                 "available": {
@@ -987,7 +617,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Flowers",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -999,16 +629,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1040,8 +670,9 @@
                             "id": "1657",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "24",
                             "descriptor": {
                                 "name": "Thalipeeth Bhajani",
                                 "short_desc": "Short Description - ",
@@ -1049,13 +680,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220405150713Untitled design (90).png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220405150713Untitled design (90).png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "500 "
+                                        "value": "500"
                                     }
                                 },
                                 "available": {
@@ -1065,7 +697,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Masala Blends and Premixes",
+                            "category_id": "Masala & Seasoning",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1077,16 +709,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1118,8 +750,9 @@
                             "id": "1939",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "25",
                             "descriptor": {
                                 "name": "Mix Seeds",
                                 "short_desc": "Short Description - KisanKonnect Mix seeds | Contains pumpkin, sunflower, flex, watermelon and chia |Anti-inflammatory and full of anti-oxidants | Good for weight management | Easy nutrition for pregnant females |Hygienically packed | Superfood | Rich in Fiber | Must include in your daily diet |",
@@ -1127,13 +760,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220427165102mix seeds.jpg",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220427165102mix seeds.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "200 "
+                                        "value": "200"
                                     }
                                 },
                                 "available": {
@@ -1143,7 +777,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Dry Fruits",
+                            "category_id": "Snacks, Dry Fruits, Nuts",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1155,16 +789,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1196,8 +830,9 @@
                             "id": "2398",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "14",
                             "descriptor": {
                                 "name": "Green Cardamom (Elachi)",
                                 "short_desc": "Short Description - ",
@@ -1205,13 +840,14 @@
                                 "images": [
                                     "https://kisankonnect.in/Images/ProductImage/Green Cardamom.png",
                                     "https://kisankonnect.in/Images/ProductImage/Green Cardamom.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "50 "
+                                        "value": "50"
                                     }
                                 },
                                 "available": {
@@ -1221,7 +857,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Village Staples",
+                            "category_id": "Rice and Rice Products",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1233,16 +869,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1274,8 +910,9 @@
                             "id": "2399",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "14",
                             "descriptor": {
                                 "name": "Dry Coconut",
                                 "short_desc": "Short Description - ",
@@ -1283,13 +920,14 @@
                                 "images": [
                                     "https://kisankonnect.in/Images/ProductImage/Dry Coconut.png",
                                     "https://kisankonnect.in/Images/ProductImage/Dry Coconut.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "200 "
+                                        "value": "200"
                                     }
                                 },
                                 "available": {
@@ -1299,7 +937,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Village Staples",
+                            "category_id": "Rice and Rice Products",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1311,16 +949,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1352,8 +990,9 @@
                             "id": "196",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "14",
                             "descriptor": {
                                 "name": "Raw Peanuts/Kacche Shengdane",
                                 "short_desc": "Short Description - Raw Peanuts are healthy source of protiens and vitamins. Raw peanuts can be consumed as it is, Roasted or can be used in cooking.",
@@ -1361,13 +1000,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/shengdane.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/shengdane.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "500 "
+                                        "value": "500"
                                     }
                                 },
                                 "available": {
@@ -1377,7 +1017,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Village Staples",
+                            "category_id": "Rice and Rice Products",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1389,16 +1029,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1430,8 +1070,9 @@
                             "id": "763",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "13",
                             "descriptor": {
                                 "name": "Grape Fruit(Approx.200g-300g)",
                                 "short_desc": "Short Description - ",
@@ -1439,13 +1080,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220401162519Untitled design (43).png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220401162519Untitled design (43).png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "unit",
-                                        "value": "1 "
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -1455,7 +1097,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Premium Fruits",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1467,16 +1109,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1508,8 +1150,9 @@
                             "id": "886",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "1",
                             "descriptor": {
                                 "name": "Baby Shimla Apple(Approx.12-14 Nos)",
                                 "short_desc": "Short Description - Shimla apples come in a variety of sizes and shapes, ranging from little to large and round to oblate to conical in shape. Waxy, glossy, or smooth skin in red, green, yellow, or orange tones is possible. The skin can be plain or bi-colored with striping and blush. The flesh might be firm, pale yellow to cream-colored, juicy, crunchy, or crisp, depending on the variety. Shimla apples come in a variety of flavors, from sweet to sour, and can have a strong or subtle smell.",
@@ -1517,13 +1160,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20211110162957baby app2_300.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20211110162957baby app2_300.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
-                                        "unit": "gram",
-                                        "value": "1 k"
+                                        "unit": "kilogram",
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -1533,7 +1177,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Fruits",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1545,16 +1189,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1586,8 +1230,9 @@
                             "id": "1084",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "17",
                             "descriptor": {
                                 "name": "Marigold Flower - Yellow",
                                 "short_desc": "Short Description - ",
@@ -1595,13 +1240,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220401150137Untitled design (38).png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220401150137Untitled design (38).png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "250 "
+                                        "value": "250"
                                     }
                                 },
                                 "available": {
@@ -1611,7 +1257,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Flowers",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1623,16 +1269,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1664,8 +1310,9 @@
                             "id": "1635",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "22",
                             "descriptor": {
                                 "name": "Coriander - Hydroponically Grown",
                                 "short_desc": "Short Description - HEALTH BENEFITS\r\nvitamin c- It helps keep your white blood cells in\r\nworking order and assists in the absorption of iron.\r\nVitamin A- It helps to feed your retinas, keep your\r\neyes moist, and generally helps protect your vi\r\nVitamin K- It helps your bones repair themselves, helping prevent problemms\r\nlike osteoporosis.\r\nResidue Free & No Pesticides",
@@ -1673,13 +1320,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220202110723coriander300.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220202110723coriander300.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "100 "
+                                        "value": "100"
                                     }
                                 },
                                 "available": {
@@ -1689,7 +1337,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Hydroponic Vegetables",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1701,16 +1349,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1742,8 +1390,9 @@
                             "id": "1665",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "24",
                             "descriptor": {
                                 "name": "Kanda Lasun Masala",
                                 "short_desc": "Short Description - Kisankonnect Kanda Lasun Masla -Foods from the western ghats in general cuisine of Maharashtra is the masala the people of the ghats use in their cooking. It is, for want of a better name, simply described as Ghati Masala.  Earlier it was made it on a very large quantity and save it for the whole year as the process to make this masala is very tedious and time consuming. The whole process consists right from roasting 3 types of chillies, 18 different types of spices which are used. Followed by frying onion, Garlic and dry coconut in it. A typical Maharashtrian family uses only this particular blend in their daily food preparations, and that’s how we have got to know the secret behind the Bharala Vanga (Bharwa Baingan) or any Maharashtrian “Tarri Wala Curry\"",
@@ -1751,13 +1400,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220516114855IMG_20220412_150723.jpg",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220516114855IMG_20220412_150723.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "200 "
+                                        "value": "200"
                                     }
                                 },
                                 "available": {
@@ -1767,7 +1417,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Masala Blends and Premixes",
+                            "category_id": "Masala & Seasoning",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1779,16 +1429,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1820,8 +1470,9 @@
                             "id": "2205",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "25",
                             "descriptor": {
                                 "name": "Cashew / Kaju",
                                 "short_desc": "Short Description - Kisankonnect''s Cashews | Whole almonds with a crunchy and nutty flavor | Hygienically packed | Superfood | Rich in Fiber | Must include in your daily diet",
@@ -1829,13 +1480,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/2022041313510861jwlY2RseL._SX569_.jpg",
                                     "https://api.kisankonnect.com/kisankonnect/Images/ProductImage/2022041313510861jwlY2RseL._SX569_.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "200 "
+                                        "value": "200"
                                     }
                                 },
                                 "available": {
@@ -1845,7 +1497,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Dry Fruits",
+                            "category_id": "Snacks, Dry Fruits, Nuts",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1857,16 +1509,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1898,8 +1550,9 @@
                             "id": "2278",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "23",
                             "descriptor": {
                                 "name": "Wheat Flour (Sharbati)",
                                 "short_desc": "Short Description - Wheat atta ( Sharbati ) is a fresh atta type. It is freshly grounded before 48hrs. It originates from sehore region of Madhya Pradesh. The distinct quality of this atta is that the grains are heavier and have a nutty flavour which makes healthy tasty and softer chapatis for you and your family.",
@@ -1907,13 +1560,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220623163416Sharbatti Atta.jpg",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/20220623163416Sharbatti Atta.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
-                                        "unit": "gram",
-                                        "value": "1 k"
+                                        "unit": "kilogram",
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -1923,7 +1577,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Fresh Atta",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -1935,16 +1589,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -1976,8 +1630,9 @@
                             "id": "343",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "13",
                             "descriptor": {
                                 "name": "Blueberry(125gm)",
                                 "short_desc": "Short Description - Blueberries are very low in calories. Blueberries decrease the rate of obesity and makes our bones healthy. Due to its attractive colour you can use it in garnishing or to top them over waffles.",
@@ -1985,13 +1640,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/BLUeberry.jpg",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/BLUeberry.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "unit",
-                                        "value": "1 "
+                                        "value": "1"
                                     }
                                 },
                                 "available": {
@@ -2001,7 +1657,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Premium Fruits",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -2013,16 +1669,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -2054,8 +1710,9 @@
                             "id": "380",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "4",
                             "descriptor": {
                                 "name": "Lettuce Red",
                                 "short_desc": "Short Description - The daisy family''''''''''''''''s red leaf lettuce is a leafy vegetable. This vegetable provides various benefits in addition to giving a splash of colour to your favourite salad or sandwich. Red leaf lettuce is nutrient-dense, meaning it contains a lot of vitamins and minerals while being low in calories.",
@@ -2063,13 +1720,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/Lettucered.png",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/Lettucered.png"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "gram",
-                                        "value": "250 "
+                                        "value": "250"
                                     }
                                 },
                                 "available": {
@@ -2079,7 +1737,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Exotic Vegetables",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -2091,16 +1749,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -2132,8 +1790,9 @@
                             "id": "462",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-06-10T20:05:47.608Z"
+                                "timestamp": "2024-07-15T18:57:03.850Z"
                             },
+                            "parent_item_id": "4",
                             "descriptor": {
                                 "name": "Mix Bell Pepper(approx. 250g to 350g)",
                                 "short_desc": "Short Description - Bell Peppers are very high in vitamin C, E && A. It adds a dynamic personality to your food giving it vibrant colors. It mixes into any dish and gives out a certain zing && taste. Bell Papers can be used in raw salads, marinated and tossed into pasta. pepper sauce can be made by cooking and sieving . they are perfect for stuffing.",
@@ -2141,13 +1800,14 @@
                                 "images": [
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/RedYellowCapsicum.jpg",
                                     "https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductImage/RedYellowCapsicum.jpg"
-                                ]
+                                ],
+                                "symbol": "https://www.kisankonnect.in/assets/images/kisankonnect_logo.svg"
                             },
                             "quantity": {
                                 "unitized": {
                                     "measure": {
                                         "unit": "unit",
-                                        "value": "2 "
+                                        "value": "2"
                                     }
                                 },
                                 "available": {
@@ -2157,7 +1817,7 @@
                                     "count": "10"
                                 }
                             },
-                            "category_id": "Exotic Vegetables",
+                            "category_id": "Fruits and Vegetables",
                             "location_id": "kk-1",
                             "fulfillment_id": "1",
                             "price": {
@@ -2169,16 +1829,16 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/available_on_cod": true,
+                            "@ondc/org/time_to_ship": "P1d",
+                            "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
                                 {
-                                    "code": "type",
+                                    "code": "origin",
                                     "list": [
                                         {
-                                            "code": "type",
-                                            "value": "item"
+                                            "code": "country",
+                                            "value": "IND"
                                         }
                                     ]
                                 },
@@ -2218,6 +1878,60 @@
                                 {
                                     "code": "accept_bap_terms",
                                     "value": "Y"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "timing",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "Order"
+                                },
+                                {
+                                    "code": "location",
+                                    "value": "L1"
+                                },
+                                {
+                                    "code": "day_from",
+                                    "value": "1"
+                                },
+                                {
+                                    "code": "day_to",
+                                    "value": "7"
+                                },
+                                {
+                                    "code": "time_from",
+                                    "value": "0000"
+                                },
+                                {
+                                    "code": "time_to",
+                                    "value": "2359"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "serviceability",
+                            "list": [
+                                {
+                                    "code": "location",
+                                    "value": "kk-1"
+                                },
+                                {
+                                    "code": "category",
+                                    "value": "Fruits and Vegetables"
+                                },
+                                {
+                                    "code": "type",
+                                    "value": "10"
+                                },
+                                {
+                                    "code": "val",
+                                    "value": "3"
+                                },
+                                {
+                                    "code": "unit",
+                                    "value": "km"
                                 }
                             ]
                         }

@@ -1,4 +1,3 @@
-[
     {
         "context": {
             "domain": "ONDC:RET10",
@@ -9,9 +8,9 @@
             "bap_id": "buyer-app-preprod-v2.ondc.org",
             "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
             "bpp_uri": "https://uatapi.kisankonnect.in/spp",
-            "transaction_id": "36faa06b-7999-4038-b2d3-40d518affe36",
-            "message_id": "1177d3ed-b1e2-4ba2-87f0-30d43ef312c1",
-            "timestamp": "2024-07-04T09:15:23.118Z",
+            "transaction_id": "ce8602d7-625a-44d1-b3e6-6c7b4e9c2cca",
+            "message_id": "jdkfja40e6-b684-4a2e-86ee-8c0ba04093cc",
+            "timestamp": "2024-07-31T11:55:07.055Z",
             "bpp_id": "uatapi.kisankonnect.in",
             "ttl": "PT30S"
         },
@@ -36,85 +35,103 @@
                 "fulfillments": [
                     {
                         "id": "1",
+                        "@ondc/org/TAT" : "P2D",
                         "end": {
                             "contact": {
                                 "email": "tech@kisankonnect.in",
-                                "phone": 18002670997
+                                "phone": "18002670997"
                             },
                             "person": {
                                 "name": "Delivery person name"
                             },
                             "location": {
-                                "gps": "12.98730109793505,77.59535220815452",
+                                "gps": "18.539119, 73.87283",
                                 "address": {
-                                    "name": "delivery person name",
-                                    "building": "Tipplr HQ",
-                                    "locality": "Cunningham Crescent Road",
-                                    "city": "Bengaluru",
-                                    "state": "Karnataka",
-                                    "country": "IND"
-                                }
-                            }
-                        },
-                        "type": "Delivery",
-                        "state": {
-                            "descriptor": {
-                                "code": "Completed"
-                            }
-                        },
-                        "start": {
-                            "location": {
-                                "id": "kk-1",
-                                "descriptor": {
-                                    "name": "swathi  d"
-                                },
-                                "gps": "12.990483,77.593028",
-                                "address": {
-                                    "city": "Bengaluru",
-                                    "area_code": "560052",
-                                    "locality": "indiranagar",
-                                    "state": "KA"
+                                    "name": "dev master",
+                                    "building": "Ramabai Ambedkar Roadsome building",
+                                    "locality": "Boat Club Road Bund Garden",
+                                    "city": "Pune",
+                                    "state": "Pune",
+                                    "country": "IND",
+                                    "area_code": "411001"
                                 }
                             },
                             "time": {
-                                "range": {
-                                    "start": "2024-05-17T04:49:18.038Z",
-                                    "end": "2024-05-14T05:34:18.038Z"
+                                "range" : {
+                                    "start": "2024-07-31 01:30:00",
+                                    "end": "2024-07-31 06:30:00"
+                                },
+                                "timestamp": "2024-07-31T06:57:13.000Z"
+                            }
+                        },
+                        "type": "Delivery",
+                        "start": {
+                            "location": {
+                                "id": "1",
+                                "descriptor": {
+                                    "name": "Kisankonnect"
+                                },
+                                "gps": "18.5397015,73.8780621",
+                                "address": {
+                                    "city": "Pune",
+                                    "area_code": "410512",
+                                    "locality": "Boat Club Road Bund Garden",
+                                    "state": "Pune"
                                 }
                             },
+                            "time": {
+                                "range" : {
+                                    "start": "2024-07-31 01:30:00",
+                                    "end": "2024-07-31 06:30:00"
+                                },
+                                "timestamp": "2024-07-31T06:51:27.000Z"
+                            },
                             "contact": {
-                                "phone": 18002670997,
+                                "phone": "18002670997",
                                 "email": "support@kisankonnect.in"
                             }
                         },
                         "@ondc/org/provider_name": "KisanKonnect Delivery",
-                        "tracking": true,
+                        "tracking": false,
+                        "state": {
+                            "descriptor": {
+                                "code": "Order-delivered"
+                            }
+                        },
                         "rateable": true
                     }
                 ],
                 "quote": {
                     "price": {
                         "currency": "INR",
-                        "value": 229
+                        "value": "491.74"
                     },
                     "breakup": [
                         {
                             "@ondc/org/item_id": "2205",
                             "@ondc/org/item_quantity": {
-                                "count": "2.0"
+                                "count": 2
                             },
-                            "title": "Cashew W320",
+                            "title": "Cashew / Kaju",
                             "@ondc/org/title_type": "item",
                             "price": {
                                 "currency": "INR",
-                                "value": "229.0"
+                                "value": "458.0"
                             },
                             "item": {
                                 "price": {
                                     "currency": "INR",
                                     "value": "229.0"
-                                },
-                                "parent_item_id": 940
+                                }
+                            }
+                        },
+                        {
+                            "@ondc/org/item_id": "1",
+                            "title": "Convenience Fee",
+                            "@ondc/org/title_type": "misc",
+                            "price": {
+                                "currency": "INR",
+                                "value": "0.0"
                             }
                         }
                     ],
@@ -124,7 +141,7 @@
                     {
                         "id": "2205",
                         "quantity": {
-                            "count": "2"
+                            "count": 2
                         },
                         "fulfillment_id": "1",
                         "tags": [
@@ -138,17 +155,17 @@
                                 ]
                             }
                         ],
-                        "parent_item_id": "940",
                         "return_status": "",
                         "cancellation_status": "",
-                        "fulfillment_status": "Accepted",
+                        "fulfillment_status": "Cancelled",
                         "product": {
                             "id": "2205",
                             "subtotal": 229,
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-07-03T17:31:37.119Z"
+                                "timestamp": "2024-07-16T11:31:39.481Z"
                             },
+                            "parent_item_id": "25",
                             "descriptor": {
                                 "name": "Cashew / Kaju",
                                 "short_desc": "Short Description - Kisankonnect''s Cashews | Whole almonds with a crunchy and nutty flavor | Hygienically packed | Superfood | Rich in Fiber | Must include in your daily diet",
@@ -184,7 +201,7 @@
                             "@ondc/org/cancellable": true,
                             "@ondc/org/return_window": "P0D",
                             "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/time_to_ship": "PT45M",
+                            "@ondc/org/time_to_ship": "P1d",
                             "@ondc/org/available_on_cod": false,
                             "@ondc/org/contact_details_consumer_care": "kk-support,hello@kisankonnect.in,18002670997",
                             "tags": [
@@ -194,15 +211,6 @@
                                         {
                                             "code": "country",
                                             "value": "IND"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "type",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "item"
                                         }
                                     ]
                                 },
@@ -260,8 +268,13 @@
                 ],
                 "payment": {
                     "type": "ON-ORDER",
-                    "collected_by": "BAP",
+                    "collected_by": "BPP",
                     "status": "PAID",
+                    "params": {
+                        "amount": "458.0",
+                        "currency": "INR",
+                        "transaction_id": "order_OfCmdeKk0aaeCC"
+                    },
                     "@ondc/org/buyer_app_finder_fee_type": "percent",
                     "@ondc/org/buyer_app_finder_fee_amount": "3",
                     "@ondc/org/settlement_basis": "return_window_expiry",
@@ -282,31 +295,30 @@
                 },
                 "billing": {
                     "address": {
-                        "name": "yash",
-                        "building": "some building",
-                        "locality": "Advocate Suryakant Vadhavkar Path",
-                        "city": "Thane",
-                        "state": "Maharashtra",
+                        "name": "dev master",
+                        "building": "Ramabai Ambedkar Roadsome building",
+                        "locality": "Boat Club Road Bund Garden",
+                        "city": "Pune",
+                        "state": "Pune",
                         "country": "IND",
-                        "area_code": "400603"
+                        "area_code": "411001"
                     },
                     "phone": "9971637613",
-                    "name": "yash",
-                    "email": "yash143256@gmail.com",
-                    "created_at": "2024-06-12T12:55:25.883Z",
-                    "updated_at": "2024-06-12T12:55:25.883Z"
+                    "name": "dev master",
+                    "email": "dev@gmail.com",
+                    "created_at": "2024-07-17T12:38:39.580Z",
+                    "updated_at": "2024-07-31T11:45:07.055Z"
                 },
                 "state": "Completed",
-                "id": "2024-07-04-322544",
+                "id": "2024-07-31-934261",
                 "documents": [
                     {
                         "url": "https://invoice_url",
                         "label": "Invoice"
                     }
                 ],
-                "created_at": "2024-07-04T09:15:23.118Z",
-                "updated_at": "2024-07-04T09:15:23.118Z"
+                "created_at": "2024-07-17T12:38:39.580Z",
+                "updated_at": "2024-07-31T11:45:07.055Z"
             }
         }
     }
-]

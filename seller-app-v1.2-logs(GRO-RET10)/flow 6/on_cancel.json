@@ -8,9 +8,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://uatapi.kisankonnect.in/spp",
-        "transaction_id": "90b75fcd-39bc-4119-8cbd-3b43aa2983dd",
-        "message_id": "4b697cd9-bdaa-4df5-b59a-27b88a6e5ba2",
-        "timestamp": "2024-07-01T10:51:28.988Z",
+        "transaction_id": "ce8602d7-625a-44d1-b3e6-6c7b4e9c2cca",
+        "message_id": "2bffd54e-a34d-46d2-8d9c-61076d2c273a",
+        "timestamp": "2024-07-17T12:45:41.226Z",
         "bpp_id": "uatapi.kisankonnect.in",
         "ttl": "PT30S"
     },
@@ -20,54 +20,54 @@
                 "id": "kk-1",
                 "locations": [
                     {
-                        "id": ""
+                        "id": "kk-1"
                     }
                 ]
             },
-            "provider_location": {
-                "id": "kk-1",
-                "locations": [
-                    {
-                        "id": ""
-                    }
-                ]
-            },
+           
             "fulfillments": [
                 {
                     "id": "1",
                     "end": {
                         "contact": {
                             "email": "tech@kisankonnect.in",
-                            "phone": 18002670997
+                            "phone": "18002670997"
                         },
                         "person": {
                             "name": "Delivery person name"
                         },
                         "location": {
-                            "gps": "12.98730109793505,77.59535220815452",
+                            "gps": "18.539119, 73.87283",
                             "address": {
-                                "name": "delivery person name",
-                                "building": "Tipplr HQ",
-                                "locality": "Cunningham Crescent Road",
-                                "city": "Bengaluru",
-                                "state": "Karnataka",
-                                "country": "IND"
+                                "building": "some building",
+                                "city": "Pune",
+                                "state": "Maharashtra",
+                                "country": "IND",
+                                "area_code": "411001",
+                                "locality": "Ramabai Ambedkar Road",
+                                "name": "yash"
+                            }
+                        },
+                        "time" : {
+                            "range": {
+                                "start": "2024-05-17T04:49:18.038Z",
+                                "end": "2024-05-14T05:34:18.038Z"
                             }
                         }
                     },
                     "type": "Delivery",
                     "start": {
                         "location": {
-                            "id": "merchant-167714647372249847",
+                            "id": "1",
                             "descriptor": {
-                                "name": "swathi  d"
+                                "name": "Customer Name"
                             },
-                            "gps": "12.990483,77.593028",
+                            "gps": "18.5397015,73.8780621",
                             "address": {
-                                "city": "Bengaluru",
-                                "area_code": "560052",
-                                "locality": "indiranagar",
-                                "state": "KA"
+                                "city": "Pune",
+                                "area_code": "411001",
+                                "locality": "Boat Club Road Bund Garden",
+                                "state": "Pune"
                             }
                         },
                         "time": {
@@ -77,28 +77,148 @@
                             }
                         },
                         "contact": {
-                            "phone": 18002670997,
+                            "phone": "18002670997",
                             "email": "support@kisankonnect.in"
                         }
                     },
                     "@ondc/org/provider_name": "KisanKonnect Delivery",
-                    "tracking": true,
+                    "tracking": false,
                     "state": {
                         "descriptor": {
                             "code": "Cancelled"
                         }
                     },
-                    "rateable": true
+                    "rateable": false,
+                    "tags": [
+                        {
+                            "code": "cancel_request",
+                            "list": [
+                                {
+                                    "code": "reason_id",
+                                    "value": "003"
+                                },
+                                {
+                                    "code": "initiated_by",
+                                    "value": "buyer-app-preprod-v2.ondc.org"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "precancel_state",
+                            "list": [
+                                {
+                                    "code": "fulfillment_state",
+                                    "value": "Pending"
+                                },
+                                {
+                                    "code": "updated_at",
+                                    "value": "2024-07-17T12:47:51.244Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                
+                {
+                    "id": "cancel-shipping",
+                    "type": "Cancel",
+                    "state": {
+                        "descriptor": {
+                            "code": "Cancelled"
+                        }
+                    },
+                    "tags": [
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "item"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "2205"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "458"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "misc"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "1"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "-13.74"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "delivery"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "1"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "-20"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
+            "billing":{
+                "address": {
+                    "building": "some building",
+                    "city": "Pune",
+                    "state": "Maharashtra",
+                    "country": "IND",
+                    "area_code": "411001",
+                    "locality": "Ramabai Ambedkar Road",
+                    "name": "yash"
+                
+                },
+                "phone": "9971637613",
+                "name": "yash",
+                "email": "yash143256@gmail.com",
+                "created_at": "2024-07-17T12:38:05.948Z",
+                "updated_at": "2024-07-17T12:38:05.948Z"
+            },
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": 229
+                    "value": "0"
                 },
                 "breakup": [
                     {
-                        "@ondc/org/item_id": 2205,
+                        "@ondc/org/item_id": "2205",
                         "@ondc/org/item_quantity": {
                             "count": 2
                         },
@@ -106,7 +226,7 @@
                         "@ondc/org/title_type": "item",
                         "price": {
                             "currency": "INR",
-                            "value": 229
+                            "value": "0"
                         },
                         "item": {
                             "quantity": {
@@ -119,7 +239,7 @@
                             },
                             "price": {
                                 "currency": "INR",
-                                "value": 229
+                                "value": "229"
                             },
                             "tags": [
                                 {
@@ -131,8 +251,25 @@
                                         }
                                     ]
                                 }
-                            ],
-                            "parent_item_id": 940
+                            ]
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "1",
+                        "title": "Delivery charges",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0.0"
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "1",
+                        "title": "Convenience Fee",
+                        "@ondc/org/title_type": "misc",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
                         }
                     }
                 ],
@@ -142,7 +279,7 @@
                 {
                     "id": "2205",
                     "quantity": {
-                        "count": 2
+                        "count": 0
                     },
                     "fulfillment_id": "1",
                     "tags": [
@@ -155,24 +292,37 @@
                                 }
                             ]
                         }
-                    ],
-                    "parent_item_id": "940"
-                }
-            ],
-            "tags": [
+                    ]
+                },
                 {
-                    "code": "bpp_terms",
-                    "list": [
+                    "id": "2205",
+                    "quantity": {
+                        "count": 2
+                    },
+                    "fulfillment_id": "cancel-shipping",
+                    "tags": [
                         {
-                            "code": "tax_number",
-                            "value": "07AAACN2082N4Z7"
+                            "code": "type",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "item"
+                                }
+                            ]
                         }
                     ]
                 }
             ],
+           
             "payment": {
-                "type": "ON-FULFILLMENT",
+                "type": "ON-ORDER",
                 "collected_by": "BPP",
+                "status": "PAID",
+                "params": {
+                    "amount": "229",
+                    "currency": "INR",
+                    "transaction_id": "order_OMDn6pmxic4KDD"
+                },
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
                 "@ondc/org/buyer_app_finder_fee_amount": "3",
                 "@ondc/org/settlement_basis": "return_window_expiry",
@@ -192,14 +342,16 @@
                 ]
             },
             "cancellation": {
-                "time": "2024-07-01T10:51:28.988Z",
-                "cancelled_by": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+                "time": "2024-07-17T12:45:41.226Z",
+                "cancelled_by": "buyer-app-preprod-v2.ondc.org",
                 "reason": {
-                    "id": "001"
+                    "id": "003"
                 }
             },
             "state": "Cancelled",
-            "id": "2024-07-01-305537"
+            "created_at": "2024-07-17T12:38:39.580Z",
+            "updated_at": "2024-07-17T12:47:51.244Z",
+            "id": "2024-07-17-682451"
         }
     }
 }
